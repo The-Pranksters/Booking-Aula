@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3LUeXYv4PFibwEN7jM8j-37" value="Rekapan Data" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="-1760" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="-1760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3LUeXYv4PFibwEN7jM8j-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="3LUeXYv4PFibwEN7jM8j-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
