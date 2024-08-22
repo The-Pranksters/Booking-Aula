@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+    
+h1, h2 {
+  font-family: sans-serif;
+  font-weight: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_space {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary-btn {
+  padding: 15px 40px;
+  background: #7e2d2d;
+  font-weight: bold;
+  color: white;
+}
+
+.secondary-btn {
+  padding: 15px 40px;
+  background: none;
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+/* header */
+header {
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 20px;
+}
+
+header img {
+  margin: 20px;
+}
+
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+header ul li a {
+  color: #000;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: #915e5e;
+}
+
+header i {
+  margin: 0 20px;
+}
+
+header button {
+  padding: 13px 40px;
+}
+
+header .navlinks span {
+  display: none;
+}
+
+header {
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 20px;
+   /* Jarak bawah dari header */ 
+}
+
+
+.primary-btn:hover {
+  background-color: #4d0b0b; /* Warna tombol saat hover */
+}
+
+/* end header */
+
+/* Menu Toggle Icon */
+.fa-bars {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Sembunyikan menu toggle di desktop */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navlinks ul {
+        flex-direction: column;
+        display: none; /* Sembunyikan menu di perangkat kecil */
+        width: 100%;
+    }
+
+    .navlinks ul.show {
+        display: flex; /* Tampilkan menu ketika toggle diklik */
+    }
+
+    .fa-bars {
+        display: block; /* Tampilkan ikon toggle di perangkat kecil */
+    }
+
+    .navlinks li {
+        margin: 10px 0;
+    }
+
+    .primary-btn {
+        margin-top: 10px;
+    }
+}
+
+.container {
+  background-color: #a03636;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* .navbar {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+} */
+
+.container {
+  padding: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+table, th, td {
+  border: 1px solid #ffffff;
+}
+
+th, td {
+  padding: 1em;
+  text-align: left;
+}
+
+th {
+  background-color: #e07171;
+}
+
+.status-ongoing {
+  color: red;
+}
+
+.status-ended {
+  color: rgb(109, 104, 104);
+}
+
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#searchInput {
+  padding: 5px 5px 5px 30px; /* Tambahkan padding kiri untuk memberi ruang pada ikon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+}
+
+.text {
+  text-align: center;
+}
